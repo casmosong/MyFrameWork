@@ -7,6 +7,6 @@ s.license      = 'MIT'
 s.author       = {'mobileresearch' => 'mobileresearch'}
 s.source       = { :git => 'https://casmosong@github.com/casmosong/MyFrameWork.git'}
 s.platform = :ios
-s.source_files = 'src/MyFrameWork/*.{h,m}'
-s.resources = "src/MyFrameWork/**/*.png"
+s.source_files = 'MyFrameWork/**/*.{h,m}'
+s.resources = "MyFrameWork/**/*.png"
 end
