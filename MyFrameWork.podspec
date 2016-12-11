@@ -1,9 +1,19 @@
+
+
+
 Pod::Spec.new do |s|
-s.name         = "MyFrameWork"
-s.version      = "0.0.1"
-s.summary  = 'weibo.com sso oauth, 微博sso认证登录功能'
-s.source       = { :git => 'https://github.com/casmosong/MyFrameWork.git'}
-s.platform = :ios
-s.source_files = 'MyFrameWork/**/*.{h,m}'
-s.resources = "MyFrameWork/**/*.png"
+
+s.name         	= "MyFrameWork"
+s.version      	= "1.4"
+s.summary      	= "Powerful and modern progress HUD for iOS."
+s.homepage     	= "https://github.com/casmosong/MyFrameWork"
+s.license      	= { :type => "MIT", :file => "LICENSE.txt" }
+s.author             	= "Jonas Gessner"
+s.social_media_url   	= "http://twitter.com/JonasGessner"
+s.platform     	= :ios, "9.0"
+s.source       	= { :git => "https://github.com/casmosong/casmosong.git", :tag => "v1.4" }
+s.source_files 	= "JGProgressHUD/*.{h,m}"
+s.frameworks 	 	= "Foundation", "UIKit", "QuartzCore"
+s.requires_arc 	= true
+
 end
